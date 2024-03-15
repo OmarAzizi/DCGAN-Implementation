@@ -67,7 +67,6 @@ def show_images(images, num_images=32):
             ax.axis('off')  # Turn off empty subplots
     plt.show()
 
-# Loop over epochs and batches
 for epoch in range(NUM_EPOCHS):
     # Target labels not needed! <3 unsupervised
     for batch_idx, (real, _) in enumerate(dataloader):
@@ -102,6 +101,10 @@ for epoch in range(NUM_EPOCHS):
             with torch.no_grad():
                 fake = gen(fixed_noise)
                 # Display generated images
-                show_images(fake[:32])
+                img_grid_real = torchvision.utils.make_grid(real[:32], normalize=True)
+                img_grid_fake = torchvision.utils.make_grid(fake[:32], normalize=True)
+
+                writer_real.add_image("Real", img_grid_real, global_step=step)
+                writer_fake.add_image("Fake", img_grid_fake, global_step=step)
 
             step += 1
