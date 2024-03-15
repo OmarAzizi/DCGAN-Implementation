@@ -12,4 +12,5 @@ After adding the Discriminator we will have a network that roughly looks like th
 ### Performance
 This is a short video for the model running for 5 epochs.
 
-[DCGAN Demo](https://www.youtube.com/watch?v=G1UeXhaDzTM)
+![DCGAN Demo](https://www.youtube.com/watch?v=G1UeXhaDzTM)
+
