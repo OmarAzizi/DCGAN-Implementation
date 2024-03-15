@@ -17,4 +17,6 @@ https://github.com/OmarAzizi/DCGAN-Implementation/assets/110500643/66ce1204-844f
 
 ### References
 I got this implementation for DCGAN from this research paper
+<br>
+
 [Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)
