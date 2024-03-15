@@ -12,7 +12,9 @@ After adding the Discriminator we will have a network that roughly looks like th
 ### Performance
 This is a short video for the model running for 5 epochs.
 
-<video width="320" height="240" controls autoplay loop>
-  <source src="https://www.youtube.com/watch?v=G1UeXhaDzTM" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/OmarAzizi/DCGAN-Implementation/assets/110500643/66ce1204-844f-480b-90a8-566e0426921c
+
+### References
+I got this implementation for DCGAN from this research paper
+[Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)
