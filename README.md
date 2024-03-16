@@ -15,6 +15,6 @@ This is a short video for the model running for 5 epochs on MNIST dataset.
 https://github.com/OmarAzizi/DCGAN-Implementation/assets/110500643/66ce1204-844f-480b-90a8-566e0426921c
 
 ### References
-I got this implementation for DCGAN from this research paper
+This implementation for DCGAN is from this research paper
 
 [Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)
